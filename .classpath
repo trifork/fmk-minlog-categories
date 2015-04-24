@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/build/aopalliance-aopalliance.jar"/>
+	<classpathentry kind="lib" path="lib/build/com.beust-jcommander.jar"/>
+	<classpathentry kind="lib" path="lib/build/com.google.inject-guice.jar"/>
+	<classpathentry kind="lib" path="lib/build/commons-io-commons-io.jar"/>
+	<classpathentry kind="lib" path="lib/build/joda-time-joda-time.jar"/>
+	<classpathentry kind="lib" path="lib/build/junit-junit.jar"/>
+	<classpathentry kind="lib" path="lib/build/log4j-log4j.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.apache.ant-ant-launcher.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.apache.ant-ant.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.apache.commons-not-yet-commons-ssl.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.beanshell-bsh.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.hamcrest-hamcrest-core.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.slf4j-slf4j-api.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.slf4j-slf4j-simple.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.testng-testng.jar"/>
+	<classpathentry kind="lib" path="lib/build/org.yaml-snakeyaml.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

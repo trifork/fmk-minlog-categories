@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ivy-module [
+    <!--
+        Declare entities that can be used as version placeholders instead of repeating the same
+        version and having to maintain and keep them in sync in many places.
+
+        Example of use (note the & and ; that surrounds the entity name):
+         <dependency org="dk.nsi.fmk.advis" name="fmk-advis-modul-client" rev="&fmk.advis.version;"/>
+    -->
+]>
+
+<ivy-module version="2.0">
+    <info module="fmk-minlog-categories" organisation="com.trifork" status="integration"/>
+    <configurations>
+      <conf name="build" /> <!-- For running medicinkortet.war in local jetty -->
+      <conf name="test"/> <!-- For running JUnit tests -->
+      <conf name="functest"/> <!-- Unused . Present to allow ivy-report to work.. -->
+      <conf name="deploy"/> <!-- Unused Present to allow ivy-report to work..  -->
+    </configurations>
+    <dependencies>
+    	<dependency org="net.sourceforge.cobertura" name="cobertura" rev="1.9.4.1" conf="test->default"/>
+        <dependency org="commons-io" name="commons-io" rev="1.4" />
+        <dependency org="junit" name="junit" rev="4.11" force="true" conf="test->default"/>
+        <dependency org="xmlunit" name="xmlunit" rev="1.3" conf="test->default"/>
+        <dependency org="log4j" name="log4j" rev="1.2.14" transitive="false"/>
+        <dependency org="org.slf4j" name="slf4j-api" rev="1.6.1"/>
+        <dependency org="org.slf4j" name="slf4j-simple" rev="1.6.1"/>
+        <dependency org="joda-time" name="joda-time" rev="1.6" />
+		<dependency org="org.apache.commons" name="not-yet-commons-ssl" rev="0.3.9" transitive="false" />
+		<dependency org="joda-time" name="joda-time" rev="1.6" />
+		<dependency org="org.testng" name="testng" rev="6.8.5" conf="build,test->*"/>
+    </dependencies>
+</ivy-module>

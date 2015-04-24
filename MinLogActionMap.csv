@@ -1,0 +1,137 @@
+# FMK - opslag
+Hent lægemiddelordination;Opslag på medicinoplysninger
+Hent lægemiddelordinationversioner;Opslag på medicinoplysninger
+Hent medicinkort;Opslag på medicinoplysninger
+Hent medicinkortversion;Opslag på medicinoplysninger
+Hent medicinkortversioner;Opslag på medicinoplysninger
+Hent medicinkort i PDF;Opslag på medicinoplysninger
+Hent receptordination;Opslag på medicinoplysninger
+Hent tilknyttede receptordinationer;Opslag på medicinoplysninger
+Hent løse receptordinationer;Opslag på medicinoplysninger
+Hent apoteksudleveringer på slettede recepter;Opslag på medicinoplysninger
+Hent lægemiddelordinations historik;Opslag på medicinoplysninger
+Hent ordinationer adresseret til lokationsnummer;Opslag på medicinoplysninger
+Hent receptordinationer ud fra CPR-nummer;Opslag på medicinoplysninger
+Hent receptordinationer ud fra recept-ID;Opslag på medicinoplysninger
+Hent ordinationsdetaljer ud fra ordinations-ID;Opslag på medicinoplysninger
+Søg seponerede lægemiddelordinationer;Opslag på medicinoplysninger
+Søg effektueringer;Opslag på medicinoplysninger
+Hent auditlog;Opslag på patientdata
+# FMK - opret/rediger
+Pausering af lægemiddelordination;Opret/rediger medicinoplysninger
+Sæt markering for medicingennemgang;Opret/rediger medicinoplysninger
+Suspendering af medicinkort;Opret/rediger medicinoplysninger
+Frigiv medicinkort;Opret/rediger medicinoplysninger
+Fjern markering for medicingennemgang;Opret/rediger medicinoplysninger
+Opdatering af medicinkort;Opret/rediger medicinoplysninger
+Ophæv pausering af lægemiddelordination;Opret/rediger medicinoplysninger
+Opret lægemiddelordination;Opret/rediger medicinoplysninger
+Opdater lægemiddelordination;Opret/rediger medicinoplysninger
+Seponer lægemiddelordination;Opret/rediger medicinoplysninger
+Afseponer lægemiddelordination;Opret/rediger medicinoplysninger
+Gensuspender;Opret/rediger medicinoplysninger
+Ugyldiggør medicinkort;Opret/rediger medicinoplysninger
+Ugyldiggør ordination;Opret/rediger medicinoplysninger
+Sæt ordination afsluttet;Opret/rediger medicinoplysninger
+Hent detaljerede receptordinationer ud fra CPR-nummer;Opret/rediger medicinoplysninger
+Opret effektuering;Opret/rediger receptbestillinger
+Slet effektuering;Opret/rediger receptbestillinger
+# FMK - privatmarkerede data
+Opslag på privatmarkering: Samtykke;Opslag på privatmarkerede data
+Opslag på privatmarkering: Værdispring;Opslag på privatmarkerede data
+Opdater samtykke/værdispring;Opslag på privatmarkerede data
+Hent samtykke/værdispring;Opslag på privatmarkerede data
+# FMK - recept
+Opret/ophæv tilknytning af receptord.;Opret/rediger recept
+Opret receptordination;Opret/rediger recept
+Opret recept til praksis;Opret/rediger recept
+Marker recept ordination ikke aktuel;Opret/rediger recept
+Afmarker recept ordination ikke aktuel;Opret/rediger recept
+Annuller recept;Opret/rediger recept
+Foretag ekspedition;Ekspedering af recept
+Kvitter for modtagelse;Ekspedering af recept
+Opret recept og foretag ekspedition;Ekspedering af recept
+Fjern status under behandling;Ekspedering af recept
+Tilbagefør udlevering;Ekspedering af recept
+Anmod om at frigive ordination;Ekspedering af recept
+Sæt status for frigiv ordination;Ekspedering af recept
+# EO
+Bestil effektuering;Opret/rediger receptbestillinger
+Hent bestillinger;Opslag på receptbestillinger
+Hent bestillingsoversigt;Opslag på receptbestillinger
+Annuller bestillinger;Opret/rediger receptbestillinger
+# POR
+Hent patienttilknytning;Opslag på patientdata
+Hent patientregistrering;Opslag på patientdata
+Avanceret søgning på person;Opslag på patientdata
+Opret patienttilknytning;Opret/rediger patientdata
+Fjern patienttilknytning;Opret/rediger patientdata
+Opret patientregistrering;Opret/rediger patientdata
+Fjern patientregistrering;Opret/rediger patientdata
+# ADMIN GUI
+Hent medicinkort;Administratoropslag
+Hent lægemiddelordination;Administratoropslag
+Hent lægemiddelordinationer;Administratoropslag
+Hent person;Administratoropslag
+Hent personnavn;Administratoropslag
+Søg lægemiddelordinationer;Administratoropslag
+Søg antal lægemiddelordinationer;Administratoropslag
+Søg effektueringer;Administratoropslag
+Søg antal effektueringer;Administratoropslag
+Hent effektuering;Administratoropslag
+Hent effektueringer;Administratoropslag
+Hent tilknyttede receptordinationer;Administratoropslag
+Hent løse receptordinationer;Administratoropslag
+Hent autorisationsnummer;Administratoropslag
+Søg hændelser;Administratoropslag
+Søg antal hændelser;Administratoropslag
+Hent lægemiddelversioner;Administratoropslag
+Hent medicinkortversioner;Administratoropslag
+Hent alle adm brugere;Administratoropslag
+Slet adm bruger;Administratoropslag
+Tilføj adm bruger;Administratoropslag
+Hent lægens medhælpere;Administratoropslag
+Hent lægens navn;Administratoropslag
+Hent auditlog;Administratoropslag
+Hent bruger login;Administratoropslag
+Hent patienttilknytning;Administratoropslag
+Invalider medicinkort;Administrative ændringer
+Frigiv medicinkort;Administrative ændringer
+Invalider ordination;Administrative ændringer
+Invalider effektuering;Administrative ændringer
+Send et xml request fra admin brugergrænsefladen;Administrative ændringer
+Opret patienttilknytning;Administrative ændringer
+Opdatering af medicinkort;Administrative ændringer
+Opret lægemiddelordination;Administrative ændringer
+Opret effektuering;Administrative ændringer
+Hent samtykke/værdispring;Administratoropslag
+# TAS
+Vis antal tilskudsansøgninger med udestående yderligere oplysninger;Hent tilskudsoplysninger
+Vis tilskudsansøgninger;Hent tilskudsoplysninger
+Hent information om eksisterende tilskudsansøgninger;Hent tilskudsoplysninger
+Vis detaljer for tilskudsansøgning;Hent tilskudsoplysninger
+Vis bilag for tilskudsansøgning;Hent tilskudsoplysninger
+Indsend yderligere oplysninger for tilskudsansøgning;Indsend yderligere oplysninger
+Indsend tilskudsansøgning;Indsend tilskudsansøgning
+#DDV
+Opret anbefalede vaccinationer;Opret/rediger anbefalede vaccinationer
+Opret eksplicit forløbsfravalg;Opret/rediger anbefalede vaccinationer
+Opret vaccination;Opret/rediger vaccinationer
+Opret vaccination og anbefalede vaccinationer;Opret/rediger vaccinationer
+Slet anbefalet vaccination;Opret/rediger anbefalede vaccinationer
+Slet vaccinationsforløbstilknytning;Opret/rediger anbefalede vaccinationer
+Slet eksplicit fravalg af vaccinationsforløb;Opret/rediger anbefalede vaccinationer
+Slet vaccination;Opret/rediger vaccinationer
+Effektuer anbefalet vaccination;Opret/rediger vaccinationer
+Hent anbefalede vaccinationer;Opslag på anbefalede vaccinationer
+Hent anbefalede vaccinationer;Administratoropslag
+Hent vaccinationer;Opslag på vaccinationer
+Hent vaccinationer;Administratoropslag
+Udskrift af vaccinationer;Opslag på vaccinationer
+Hent valgte og eksplicit fravalgte vaccinationsforløb;Opslag på anbefalede vaccinationer
+Hent eksplicit fravalgte  vaccinationsforløb;Opslag på anbefalede vaccinationer
+Hent vaccination med historik;Opslag på vaccinationer
+Opdater anbefalet vaccination;Opret/rediger anbefalede vaccinationer
+Opdater vaccination;Opret/rediger vaccinationer
+Privatmarkerede vaccinationer vist med patientsamtykke;Opslag på privatmarkerede data	
+Privatmarkerede vaccinationer vist pga. værdispringsregel;Opslag på privatmarkerede data
