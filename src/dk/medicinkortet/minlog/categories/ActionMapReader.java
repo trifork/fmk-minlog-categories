@@ -7,18 +7,29 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 import org.apache.log4j.Logger;
 
 
 /***
  * Read a semicolon separated file containing action mappings for MinLog registration usage
+ * 
+ * # <some comment>
+ * <method name>;<minlog category name>
+ * ...
+ * <method name to ignore>
+ * 
  * Example:
+ *  # Some comment
  * 	Hent lægemiddelordination;Opslag på medicinoplysninger
  * 	Hent lægemiddelordinationversioner;Opslag på medicinoplysninger
  * 	Hent medicinkort;Opslag på medicinoplysninger
- * 
+ *  # Actions to ignore
+ *  Menu opsætning
+ *   
  * @author chj
  *
  */
@@ -26,61 +37,14 @@ public class ActionMapReader {
 
 	private static Logger logger = Logger.getLogger(ActionMapReader.class);
 	
-	public static class Action {
-		
-		private final String actionName;
-		private final boolean isAdminAction;
-		
-		public Action(String actionName, boolean isAdminAction) {
-			super();
-			this.actionName = actionName;
-			this.isAdminAction = isAdminAction;
-		}
-		public String getActionName() {
-			return actionName;
-		}
-
-		public boolean getIsAdminAction() {
-			return isAdminAction;
-		}
-		@Override
-		public int hashCode() {
-			final int prime = 31;
-			int result = 1;
-			result = prime * result
-					+ ((actionName == null) ? 0 : actionName.hashCode());
-			result = prime * result + (isAdminAction ? 1231 : 1237);
-			return result;
-		}
-		@Override
-		public boolean equals(Object obj) {
-			if (this == obj)
-				return true;
-			if (obj == null)
-				return false;
-			if (!(obj instanceof Action))
-				return false;
-			Action other = (Action) obj;
-			if (actionName == null) {
-				if (other.actionName != null)
-					return false;
-			} else if (!actionName.equals(other.actionName))
-				return false;
-			if (isAdminAction != other.isAdminAction)
-				return false;
-			return true;
-		}
-		
-		
-	}
-	
-	public static Map<Action, String> getActionMap() throws IOException {
+	public static ActionMap getActionMap() throws IOException {
 		return getActionMap("MinLogActionMap.csv");
 	}
 	
-	public static Map<Action, String> getActionMap(String mappingFilename) throws IOException {
+	public static ActionMap getActionMap(String mappingFilename) throws IOException {
 		
-		Map<Action, String> actionMap = new HashMap<Action, String>(); 
+		Map<Action, String> includedActionsMap = new HashMap<Action, String>(); 
+		Set<String> ignoredActions = new HashSet<String>();
 		BufferedReader br = null;
 		String line = "";
 		
@@ -91,12 +55,21 @@ public class ActionMapReader {
 	 
 				if(!line.startsWith("#")) {	// Comment lines starts with #
 					String[] actionMapLine = line.split(";");
-					Action action = new ActionMapReader.Action(actionMapLine[0], isAdminAction(actionMapLine[1]));
-					if(actionMap.containsKey(action)) {
-						logger.error("Duplicate key in actionmap-file: " + action.getActionName() + " (admin = " + action.getIsAdminAction() + ")");
+					if(actionMapLine.length == 2) {
+						Action action = new Action(actionMapLine[0], isAdminAction(actionMapLine[1]));
+						if(includedActionsMap.containsKey(action)) {
+							logger.error("Duplicate key in actionmap-file: " + action.getActionName() + " (admin = " + action.getIsAdminAction() + ")");
+						}
+						else {
+							includedActionsMap.put(action, actionMapLine[1]);
+						}
+					}
+					else if(actionMapLine.length == 1) {
+						// Not included in minlogs, to be ignored, but keep them in the actionMap to avoid error logs
+						ignoredActions.add(actionMapLine[0]);
 					}
 					else {
-						actionMap.put(action, actionMapLine[1]);
+						logger.error("Error in actionmap-file: " + actionMapLine);
 					}
 				}
 			}
@@ -106,7 +79,7 @@ public class ActionMapReader {
 			} 
 		}
 			
-		return actionMap;
+		return new ActionMap(includedActionsMap, ignoredActions);
 	}
 	
 	private static boolean isAdminAction(String actionName) {

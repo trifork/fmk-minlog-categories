@@ -1,11 +1,14 @@
 # FMK - opslag
 Hent lægemiddelordination;Opslag på medicinoplysninger
+Ny hent lægemiddelordination;Opslag på medicinoplysninger
 Hent lægemiddelordinationversioner;Opslag på medicinoplysninger
 Hent medicinkort;Opslag på medicinoplysninger
+Ny hent medicinkort;Opslag på medicinoplysninger
 Hent medicinkortversion;Opslag på medicinoplysninger
 Hent medicinkortversioner;Opslag på medicinoplysninger
 Hent medicinkort i PDF;Opslag på medicinoplysninger
 Hent receptordination;Opslag på medicinoplysninger
+Ny hent receptordination;Opslag på medicinoplysninger
 Hent tilknyttede receptordinationer;Opslag på medicinoplysninger
 Hent løse receptordinationer;Opslag på medicinoplysninger
 Hent apoteksudleveringer på slettede recepter;Opslag på medicinoplysninger
@@ -135,3 +138,29 @@ Opdater anbefalet vaccination;Opret/rediger anbefalede vaccinationer
 Opdater vaccination;Opret/rediger vaccinationer
 Privatmarkerede vaccinationer vist med patientsamtykke;Opslag på privatmarkerede data	
 Privatmarkerede vaccinationer vist pga. værdispringsregel;Opslag på privatmarkerede data
+# ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
+Slet autorisation for system
+Opdater autorisation for system
+Fjern lægens medhjælper
+Opret recept til praksis
+Menu opsætning
+Tilføj lægens medhjælper
+Hent autorisation for system
+Hent organisationsnavn
+Opret autorisation for system
+Hent rettigheder for rolle
+Hent navne på testdataset
+Hent kommune
+Opdater samtykke/værdispring
+Henter metoder
+Slet Godkendelsestest
+Sæt rettigheder for rolle
+Indlæs testdata
+Send mistet advis advis
+Opret recept uden CPR
+Indlæs testdata for bruger
+Opret recept uden CPR
+Hent rettigheder
+Hent rettigheder
+Hent mulige xml requests
+Slet testdata
