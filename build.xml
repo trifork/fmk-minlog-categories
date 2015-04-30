@@ -48,18 +48,4 @@
     <target name="build" depends="resolve-build, jar"/>
 
     <target name="test.all" depends="clean, compile, test, javadoc"/>
-
-    <target name="fatjar" depends="compile">
-        <taskdef name="one-jar" classname="com.simontuffs.onejar.ant.OneJarTask"
-                 classpathref="classpath" onerror="report"/>
-
-        <one-jar destfile="target/${ant.project.name}-all.jar" mainmanifest="etc/manifest.mf">
-            <main>
-                <fileset dir="${build.dir}"/>
-            </main>
-            <lib>
-                <fileset dir="lib/build"/>
-            </lib>
-        </one-jar>
-    </target>
 </project>

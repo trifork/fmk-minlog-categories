@@ -74,6 +74,10 @@ public class ActionMapReader {
 		
 	}
 	
+	public static Map<Action, String> getActionMap() throws IOException {
+		return getActionMap("MinLogActionMap.csv");
+	}
+	
 	public static Map<Action, String> getActionMap(String mappingFilename) throws IOException {
 		
 		Map<Action, String> actionMap = new HashMap<Action, String>(); 
@@ -81,7 +85,7 @@ public class ActionMapReader {
 		String line = "";
 		
 		try {
-			br = new BufferedReader(new InputStreamReader(new FileInputStream(mappingFilename), Charset.forName("UTF-8")));
+			br = new BufferedReader(new InputStreamReader(ActionMapReader.class.getClassLoader().getResourceAsStream(mappingFilename), Charset.forName("UTF-8")));
 
 			while ((line = br.readLine()) != null) {
 	 
