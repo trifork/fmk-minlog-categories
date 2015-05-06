@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
 import java.util.HashMap;
@@ -49,7 +50,11 @@ public class ActionMapReader {
 		String line = "";
 		
 		try {
-			br = new BufferedReader(new InputStreamReader(ActionMapReader.class.getClassLoader().getResourceAsStream(mappingFilename), Charset.forName("UTF-8")));
+			InputStream is = ActionMapReader.class.getClassLoader().getResourceAsStream(mappingFilename);
+			if(is == null) {
+				throw new IOException("Unable to read actionmap file " + mappingFilename);
+			}
+			br = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
 
 			while ((line = br.readLine()) != null) {
 	 
