@@ -108,6 +108,7 @@ Opdatering af medicinkort;Administrative ændringer
 Opret lægemiddelordination;Administrative ændringer
 Opret effektuering;Administrative ændringer
 Hent samtykke/værdispring;Administratoropslag
+Hent medicinkortversion;Administratoropslag
 # TAS
 Vis antal tilskudsansøgninger med udestående yderligere oplysninger;Hent tilskudsoplysninger
 Vis tilskudsansøgninger;Hent tilskudsoplysninger
@@ -160,7 +161,6 @@ Send mistet advis advis
 Opret recept uden CPR
 Indlæs testdata for bruger
 Opret recept uden CPR
-Hent rettigheder
 Hent rettigheder
 Hent mulige xml requests
 Slet testdata
