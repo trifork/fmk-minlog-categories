@@ -99,6 +99,7 @@ Hent lægens navn;Administratoropslag
 Hent auditlog;Administratoropslag
 Hent bruger login;Administratoropslag
 Hent patienttilknytning;Administratoropslag
+Hent patienttilknytning med datoer;Administratoropslag
 Invalider medicinkort;Administrative ændringer
 Frigiv medicinkort;Administrative ændringer
 Invalider ordination;Administrative ændringer
