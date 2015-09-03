@@ -65,6 +65,7 @@ Hent bestillingsoversigt;Opslag på receptbestillinger
 Annuller bestillinger;Opret/rediger receptbestillinger
 # POR
 Hent patienttilknytning;Opslag på patientdata
+Hent patienttilknytning med datoer;Opslag på patientdata
 Hent patientregistrering;Opslag på patientdata
 Avanceret søgning på person;Opslag på patientdata
 Opret patienttilknytning;Opret/rediger patientdata
