@@ -39,8 +39,8 @@ Sæt ordination afsluttet;Opret/rediger medicinoplysninger
 Hent detaljerede receptordinationer ud fra CPR-nummer;Opret/rediger medicinoplysninger
 Opret effektuering;Opret/rediger receptbestillinger
 Slet effektuering;Opret/rediger receptbestillinger
-Sæt privatmarkering;Opret/rediger medicinoplysninger
-Fjern privatmarkering;Opret/rediger medicinoplysninger
+Sæt privatmarkering;Ændring af privatmarkering
+Fjern privatmarkering;Ændring af privatmarkering
 # FMK - privatmarkerede data
 Opslag på privatmarkering: Samtykke;Opslag på privatmarkerede data
 Opslag på privatmarkering: Værdispring;Opslag på privatmarkerede data
