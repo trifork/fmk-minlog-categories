@@ -20,6 +20,8 @@ Hent ordinationsdetaljer ud fra ordinations-ID;Opslag på medicinoplysninger
 Søg seponerede lægemiddelordinationer;Opslag på medicinoplysninger
 Søg effektueringer;Opslag på medicinoplysninger
 Hent auditlog;Opslag på patientdata
+# FMK - Apotekskald (1.4.6)
+Hent medicinkort for apoteker;Opslag på medicinoplysninger
 # FMK - opret/rediger
 Pausering af lægemiddelordination;Opret/rediger medicinoplysninger
 Sæt markering for medicingennemgang;Opret/rediger medicinoplysninger
@@ -76,6 +78,7 @@ Opret patientregistrering;Opret/rediger patientdata
 Fjern patientregistrering;Opret/rediger patientdata
 # ADMIN GUI
 Hent medicinkort;Administratoropslag
+Hent medicinkort for apoteker;Administratoropslag
 Hent lægemiddelordination;Administratoropslag
 Hent lægemiddelordinationer;Administratoropslag
 Hent person;Administratoropslag
