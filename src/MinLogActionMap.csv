@@ -8,15 +8,15 @@ Hent medicinkortversion;Opslag på medicinoplysninger
 Hent medicinkortversioner;Opslag på medicinoplysninger
 Hent medicinkort versioner for flere CPR numre;Opslag på medicinoplysninger
 Hent medicinkort i PDF;Opslag på medicinoplysninger
-Hent receptordination;Opslag på medicinoplysninger
-Ny hent receptordination;Opslag på medicinoplysninger
-Hent tilknyttede receptordinationer;Opslag på medicinoplysninger
-Hent løse receptordinationer;Opslag på medicinoplysninger
+Hent recept;Opslag på medicinoplysninger
+Ny hent recept;Opslag på medicinoplysninger
+Hent tilknyttede recepter;Opslag på medicinoplysninger
+Hent løse recepter;Opslag på medicinoplysninger
 Hent apoteksudleveringer på slettede recepter;Opslag på medicinoplysninger
 Hent lægemiddelordinations historik;Opslag på medicinoplysninger
 Hent ordinationer adresseret til lokationsnummer;Opslag på medicinoplysninger
-Hent receptordinationer ud fra CPR-nummer;Opslag på medicinoplysninger
-Hent receptordinationer ud fra recept-ID;Opslag på medicinoplysninger
+Hent recepter ud fra CPR-nummer;Opslag på medicinoplysninger
+Hent recepter ud fra recept-ID;Opslag på medicinoplysninger
 Hent ordinationsdetaljer ud fra ordinations-ID;Opslag på medicinoplysninger
 Søg seponerede lægemiddelordinationer;Opslag på medicinoplysninger
 Søg effektueringer;Opslag på medicinoplysninger
@@ -40,7 +40,7 @@ Gensuspender;Opret/rediger medicinoplysninger
 Ugyldiggør medicinkort;Opret/rediger medicinoplysninger
 Ugyldiggør ordination;Opret/rediger medicinoplysninger
 Sæt ordination afsluttet;Opret/rediger medicinoplysninger
-Hent detaljerede receptordinationer ud fra CPR-nummer;Opret/rediger medicinoplysninger
+Hent detaljerede recepter ud fra CPR-nummer;Opret/rediger medicinoplysninger
 Opret effektuering;Opret/rediger receptbestillinger
 Slet effektuering;Opret/rediger receptbestillinger
 Sæt privatmarkering;Ændring af privatmarkering
@@ -51,8 +51,8 @@ Opslag på privatmarkering: Værdispring;Opslag på privatmarkerede data
 Opdater samtykke/værdispring;Opslag på privatmarkerede data
 Hent samtykke/værdispring;Opslag på privatmarkerede data
 # FMK - recept
-Opret/ophæv tilknytning af receptord.;Opret/rediger recept
-Opret receptordination;Opret/rediger recept
+Opret/ophæv tilknytning af recept;Opret/rediger recept
+Opret recept;Opret/rediger recept
 Opret recept til praksis;Opret/rediger recept
 Marker recept ordination ikke aktuel;Opret/rediger recept
 Afmarker recept ordination ikke aktuel;Opret/rediger recept
@@ -92,8 +92,8 @@ Søg effektueringer;Administratoropslag
 Søg antal effektueringer;Administratoropslag
 Hent effektuering;Administratoropslag
 Hent effektueringer;Administratoropslag
-Hent tilknyttede receptordinationer;Administratoropslag
-Hent løse receptordinationer;Administratoropslag
+Hent tilknyttede recepter;Administratoropslag
+Hent løse recepter;Administratoropslag
 Hent autorisationsnummer;Administratoropslag
 Søg hændelser;Administratoropslag
 Søg antal hændelser;Administratoropslag
