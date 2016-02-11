@@ -8,6 +8,10 @@ Hent medicinkortversion;Opslag på medicinoplysninger
 Hent medicinkortversioner;Opslag på medicinoplysninger
 Hent medicinkort versioner for flere CPR numre;Opslag på medicinoplysninger
 Hent medicinkort i PDF;Opslag på medicinoplysninger
+Hent receptordination;Opslag på medicinoplysninger
+Ny hent receptordination;Opslag på medicinoplysninger
+Hent tilknyttede receptordinationer;Opslag på medicinoplysninger
+Hent løse receptordinationer;Opslag på medicinoplysninger
 Hent recept;Opslag på medicinoplysninger
 Ny hent recept;Opslag på medicinoplysninger
 Hent tilknyttede recepter;Opslag på medicinoplysninger
@@ -15,6 +19,8 @@ Hent løse recepter;Opslag på medicinoplysninger
 Hent apoteksudleveringer på slettede recepter;Opslag på medicinoplysninger
 Hent lægemiddelordinations historik;Opslag på medicinoplysninger
 Hent ordinationer adresseret til lokationsnummer;Opslag på medicinoplysninger
+Hent recepter ud fra CPR-nummer;Opslag på medicinoplysninger
+Hent recepter ud fra recept-ID;Opslag på medicinoplysninger
 Hent recepter ud fra CPR-nummer;Opslag på medicinoplysninger
 Hent recepter ud fra recept-ID;Opslag på medicinoplysninger
 Hent ordinationsdetaljer ud fra ordinations-ID;Opslag på medicinoplysninger
