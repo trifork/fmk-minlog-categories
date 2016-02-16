@@ -30,6 +30,7 @@ Hent auditlog;Opslag på patientdata
 # FMK - Apotekskald (1.4.6)
 Hent medicinkort for apoteker;Opslag på medicinoplysninger
 Påbegynd effektuering;Opret/rediger receptbestillinger
+Afbryd effektuering;Opret/rediger receptbestillinger
 Opret effektuering på recept;Ekspeder recept
 # FMK - opret/rediger
 Pausering af lægemiddelordination;Opret/rediger medicinoplysninger
