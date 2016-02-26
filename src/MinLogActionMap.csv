@@ -34,6 +34,7 @@ Afbryd effektuering;Opret/rediger receptbestillinger
 Opret effektuering på recept;Ekspeder recept
 Afslut recept;Afslut recept
 Ugyldiggør recept;Ugyldiggør recept
+Genåbn recept;Genåbn recept
 # FMK - opret/rediger
 Pausering af lægemiddelordination;Opret/rediger medicinoplysninger
 Sæt markering for medicingennemgang;Opret/rediger medicinoplysninger
@@ -138,6 +139,7 @@ Hent samtykke/værdispring;Administratoropslag
 Hent medicinkortversion;Administratoropslag
 Afslut recept;Administratoropslag
 Ugyldiggør recept;Administratoropslag
+Genåbn recept;Administratoropslag
 # TAS
 Vis antal tilskudsansøgninger med udestående yderligere oplysninger;Hent tilskudsoplysninger
 Vis tilskudsansøgninger;Hent tilskudsoplysninger
