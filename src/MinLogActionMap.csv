@@ -35,6 +35,7 @@ Opret effektuering på recept;Ekspeder recept
 Afslut recept;Afslut recept
 Ugyldiggør recept;Ugyldiggør recept
 Genåbn recept;Genåbn recept
+Tilbagefør effektuering;Opret/rediger receptbestillinger
 # FMK - opret/rediger
 Pausering af lægemiddelordination;Opret/rediger medicinoplysninger
 Sæt markering for medicingennemgang;Opret/rediger medicinoplysninger
@@ -75,7 +76,6 @@ Foretag ekspedition;Ekspedition af recept
 Kvitter for modtagelse;Ekspedition af recept
 Opret recept og foretag ekspedition;Ekspedition af recept
 Fjern status under behandling;Ekspedition af recept
-Tilbagefør udlevering;Ekspedition af recept
 Anmod om at frigive ordination;Ekspedition af recept
 Sæt status for frigiv ordination;Ekspedition af recept
 # EO
