@@ -78,11 +78,12 @@ Opret recept og foretag ekspedition;Ekspedition af recept
 Fjern status under behandling;Ekspedition af recept
 Anmod om at frigive ordination;Ekspedition af recept
 Sæt status for frigiv ordination;Ekspedition af recept
-# EO
+# EO/FMK bestillinger
 Bestil effektuering;Opret/rediger receptbestillinger
 Hent bestillinger;Opslag på receptbestillinger
 Hent bestillingsoversigt;Opslag på receptbestillinger
 Annuller bestillinger;Opret/rediger receptbestillinger
+Opret bestilling;Opret/rediger receptbestillinger
 # POR
 Hent patienttilknytning;Opslag på patientdata
 Hent patienttilknytning med datoer;Opslag på patientdata
