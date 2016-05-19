@@ -28,6 +28,7 @@ Søg seponerede lægemiddelordinationer;Opslag på medicinoplysninger
 Søg effektueringer;Opslag på medicinoplysninger
 Hent auditlog;Opslag på patientdata
 # FMK - Apotekskald (1.4.6)
+Hent medicinkort med samtykke;Opslag på medicinkort efter samtykke
 Hent medicinkort for apoteker;Opslag på medicinoplysninger
 Påbegynd effektuering;Opret/rediger receptbestillinger
 Afbryd effektuering;Opret/rediger receptbestillinger
