@@ -40,6 +40,7 @@ Afslut recept;Afslut recept
 Ugyldiggør recept;Ugyldiggør recept
 Genåbn recept;Genåbn recept
 Tilbagefør effektuering;Opret/rediger receptbestillinger
+Tilbagefør udlevering;Opret/rediger receptbestillinger
 Opret recept, bestilling og effektuering;Ekspeder recept
 Kvitter for bestillinger;Ekspeder recept
 # FMK - opret/rediger
@@ -152,6 +153,9 @@ Ugyldiggør recept;Administratoropslag
 Genåbn recept;Administratoropslag
 Opret recept, bestilling og effektuering;Administratoropslag
 Kvitter for bestillinger;Administratoropslag
+Bestil effektuering;Administratoropslag
+Fjern patienttilknytning;Administratoropslag
+Pausering af lægemiddelordination;Administratoropslag
 # TAS
 Vis antal tilskudsansøgninger med udestående yderligere oplysninger;Hent tilskudsoplysninger
 Vis tilskudsansøgninger;Hent tilskudsoplysninger
@@ -176,7 +180,7 @@ Hent vaccinationer;Opslag på vaccinationer
 Hent vaccinationer;Administratoropslag
 Udskrift af vaccinationer;Opslag på vaccinationer
 Hent valgte og eksplicit fravalgte vaccinationsforløb;Opslag på anbefalede vaccinationer
-Hent eksplicit fravalgte  vaccinationsforløb;Opslag på anbefalede vaccinationer
+Hent eksplicit fravalgte vaccinationsforløb;Opslag på anbefalede vaccinationer
 Hent vaccination med historik;Opslag på vaccinationer
 Opdater anbefalet vaccination;Opret/rediger anbefalede vaccinationer
 Opdater vaccination;Opret/rediger vaccinationer
