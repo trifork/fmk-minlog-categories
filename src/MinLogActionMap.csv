@@ -1,6 +1,6 @@
 # FMK - opslag
 Hent udstedelsesdato for nyeste recept;Opslag på medicinoplysninger
-Hent receptanmodninger for CPR nummer;Opslag på receptanmodninger
+Hent receptanmodninger;Opslag på receptbestillinger/anmodninger
 Hent lægemiddelordination;Opslag på medicinoplysninger
 Ny hent lægemiddelordination;Opslag på medicinoplysninger
 Hent lægemiddelordinationversioner;Opslag på medicinoplysninger
@@ -89,12 +89,12 @@ Anmod om at frigive ordination;Ekspedition af recept
 Sæt status for frigiv ordination;Ekspedition af recept
 # EO/FMK bestillinger
 Bestil effektuering;Opret/rediger receptbestillinger
-Hent bestillinger;Opslag på receptbestillinger
-Hent bestillingsoversigt;Opslag på receptbestillinger
+Hent bestillinger;Opslag på receptbestillinger/anmodninger
+Hent bestillingsoversigt;Opslag på receptbestillinger/anmodninger
 Annuller bestillinger;Opret/rediger receptbestillinger
 Opret bestilling;Opret/rediger receptbestillinger
 Annuller bestilling;Opret/rediger receptbestillinger
-Hent nye bestillinger;Opslag på receptbestillinger
+Hent nye bestillinger;Opslag på receptbestillinger/anmodninger
 # POR
 Hent patienttilknytning;Opslag på patientdata
 Hent patienttilknytning med datoer;Opslag på patientdata
