@@ -1,6 +1,7 @@
 # FMK - opslag
 Hent udstedelsesdato for nyeste recept;Opslag på medicinoplysninger
 Hent receptanmodninger;Opslag på receptbestillinger/anmodninger
+Opret receptanmodning;Opret/rediger receptbestillinger/anmodninger
 Hent lægemiddelordination;Opslag på medicinoplysninger
 Ny hent lægemiddelordination;Opslag på medicinoplysninger
 Hent lægemiddelordinationversioner;Opslag på medicinoplysninger
@@ -34,14 +35,14 @@ Hent personnavn;Opslag på patientdata
 # FMK - Apotekskald (1.4.6)
 Hent medicinkort med samtykke;Opslag på medicinoplysninger med samtykke
 Hent medicinkort for apoteker;Opslag på medicinoplysninger
-Påbegynd effektuering;Opret/rediger receptbestillinger
-Afbryd effektuering;Opret/rediger receptbestillinger
+Påbegynd effektuering;Opret/rediger receptbestillinger/anmodninger
+Afbryd effektuering;Opret/rediger receptbestillinger/anmodninger
 Opret effektuering på recept;Ekspeder recept
 Afslut recept;Afslut recept
 Ugyldiggør recept;Ugyldiggør recept
 Genåbn recept;Genåbn recept
-Tilbagefør effektuering;Opret/rediger receptbestillinger
-Tilbagefør udlevering;Opret/rediger receptbestillinger
+Tilbagefør effektuering;Opret/rediger receptbestillinger/anmodninger
+Tilbagefør udlevering;Opret/rediger receptbestillinger/anmodninger
 Opret recept, bestilling og effektuering;Ekspeder recept
 Kvitter for bestillinger;Ekspeder recept
 # FMK - opret/rediger
@@ -62,8 +63,8 @@ Ugyldiggør ordination;Opret/rediger medicinoplysninger
 Sæt ordination afsluttet;Opret/rediger medicinoplysninger
 Hent detaljerede receptordinationer ud fra CPR-nummer;Opret/rediger medicinoplysninger
 Hent detaljerede recepter ud fra CPR-nummer;Opret/rediger medicinoplysninger
-Opret effektuering;Opret/rediger receptbestillinger
-Slet effektuering;Opret/rediger receptbestillinger
+Opret effektuering;Opret/rediger receptbestillinger/anmodninger
+Slet effektuering;Opret/rediger receptbestillinger/anmodninger
 Sæt privatmarkering;Ændring af privatmarkering
 Fjern privatmarkering;Ændring af privatmarkering
 # FMK - privatmarkerede data
@@ -88,12 +89,12 @@ Fjern status under behandling;Ekspedition af recept
 Anmod om at frigive ordination;Ekspedition af recept
 Sæt status for frigiv ordination;Ekspedition af recept
 # EO/FMK bestillinger
-Bestil effektuering;Opret/rediger receptbestillinger
+Bestil effektuering;Opret/rediger receptbestillinger/anmodninger
 Hent bestillinger;Opslag på receptbestillinger/anmodninger
 Hent bestillingsoversigt;Opslag på receptbestillinger/anmodninger
-Annuller bestillinger;Opret/rediger receptbestillinger
-Opret bestilling;Opret/rediger receptbestillinger
-Annuller bestilling;Opret/rediger receptbestillinger
+Annuller bestillinger;Opret/rediger receptbestillinger/anmodninger
+Opret bestilling;Opret/rediger receptbestillinger/anmodninger
+Annuller bestilling;Opret/rediger receptbestillinger/anmodninger
 Hent nye bestillinger;Opslag på receptbestillinger/anmodninger
 # POR
 Hent patienttilknytning;Opslag på patientdata
