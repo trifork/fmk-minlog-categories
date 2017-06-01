@@ -16,7 +16,6 @@
 	<classpathentry kind="lib" path="lib/build/org.beanshell-bsh.jar"/>
 	<classpathentry kind="lib" path="lib/build/org.hamcrest-hamcrest-core.jar"/>
 	<classpathentry kind="lib" path="lib/build/org.slf4j-slf4j-api.jar"/>
-	<classpathentry kind="lib" path="lib/build/org.slf4j-slf4j-simple.jar"/>
 	<classpathentry kind="lib" path="lib/build/org.testng-testng.jar"/>
 	<classpathentry kind="lib" path="lib/build/org.yaml-snakeyaml.jar"/>
 	<classpathentry kind="output" path="bin"/>
