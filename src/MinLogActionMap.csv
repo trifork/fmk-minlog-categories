@@ -135,6 +135,7 @@ Søg antal hændelser;Administratoropslag
 Hent lægemiddelversioner;Administratoropslag
 Hent medicinkortversioner;Administratoropslag
 Hent alle adm brugere;Administratoropslag
+Hent adm bruger;Administratoropslag
 Slet adm bruger;Administratoropslag
 Tilføj adm bruger;Administratoropslag
 Hent lægens medhælpere;Administratoropslag
@@ -190,7 +191,7 @@ Hent eksplicit fravalgte vaccinationsforløb;Opslag på anbefalede vaccinationer
 Hent vaccination med historik;Opslag på vaccinationer
 Opdater anbefalet vaccination;Opret/rediger anbefalede vaccinationer
 Opdater vaccination;Opret/rediger vaccinationer
-Privatmarkerede vaccinationer vist med patientsamtykke;Opslag på privatmarkerede data	
+Privatmarkerede vaccinationer vist med patientsamtykke;Opslag på privatmarkerede data
 Privatmarkerede vaccinationer vist pga. værdispringsregel;Opslag på privatmarkerede data
 # ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
 Slet autorisation for system
