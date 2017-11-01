@@ -1,4 +1,26 @@
 # FMK - opslag
+Påbegynd DD udlevering;Dosisdispenseringskort
+Sæt status for en dosisdispenseringsperiode;Dosisdispenseringskort
+Søg planlagt administration;Dosisdispenseringskort
+Opret DD udlevering;Dosisdispenseringskort
+Opdater planlagt administration;Dosisdispenseringskort
+Opdater pakkegruppe;Dosisdispenseringskort
+Opdater periode på dosisdispenseringskort;Dosisdispenseringskort
+Opdater dosisdispenseringskort;Dosisdispenseringskort
+Hent liste af pakkegrupper;Dosisdispenseringskort
+Hent planlagt dispensering;Dosisdispenseringskort
+Hent pakkegruppe;Dosisdispenseringskort
+Hent perioder til dosisdispenseringskort;Dosisdispenseringskort
+Slet planlagt administration;Dosisdispenseringskort
+Slet pakkegruppe;Dosisdispenseringskort
+Slet periode på dosisdispenseringskort;Dosisdispenseringskort
+Opret planlagt administration;Dosisdispenseringskort
+Opret pakkegruppe;Dosisdispenseringskort
+Opret periode på dosisdispenseringskort;Dosisdispenseringskort
+Opret dosisdispenseringskort;Dosisdispenseringskort
+Luk dosisdispenseringskort;Dosisdispenseringskort
+Luk dosisdispenseringskort;Dosisdispenseringskort
+Luk dosisdispenseringskort;Dosisdispenseringskort
 Hent info om dosis dispenseret medicin;Opslag på medicinoplysninger
 Annuller receptanmodning;Opret/rediger receptbestillinger/anmodninger
 Sæt dosisdispensering i bero;Sæt dosisdispensering i bero
