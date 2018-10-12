@@ -221,7 +221,8 @@ Privatmarkerede vaccinationer vist pga. værdispringsregel;Opslag på privatmark
 VaerdiSpring;Opslag på privatmarkerede data
 PatientSamtykke;Opslag på privatmarkerede data
 Oprettet;Ændring af privatmarkering
-# ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
+# ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende grupperingHenter flere effektueringer på en LMO
+
 Slet autorisation for system
 Opdater autorisation for system
 Fjern lægens medhjælper
