@@ -77,9 +77,11 @@ Kvitter for bestillinger;Ekspeder recept
 # FMK - opret/rediger
 Pausering af lægemiddelordination;Opret/rediger medicinoplysninger
 Sæt markering for medicingennemgang;Opret/rediger medicinoplysninger
+Marker medicinkort som Ajourført;Opret/rediger medicinoplysninger
 Suspendering af medicinkort;Opret/rediger medicinoplysninger
 Frigiv medicinkort;Opret/rediger medicinoplysninger
 Fjern markering for medicingennemgang;Opret/rediger medicinoplysninger
+Marker medicinkort som Ikke ajourført;Opret/rediger medicinoplysninger
 Opdatering af medicinkort;Opret/rediger medicinoplysninger
 Ophæv pausering af lægemiddelordination;Opret/rediger medicinoplysninger
 Opret lægemiddelordination;Opret/rediger medicinoplysninger
