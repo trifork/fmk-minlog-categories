@@ -67,6 +67,7 @@ Hent recepter ud fra recept-ID;Opslag på medicinoplysninger
 Hent ordinationsdetaljer ud fra ordinations-ID;Opslag på medicinoplysninger
 Søg seponerede lægemiddelordinationer;Opslag på medicinoplysninger
 Søg effektueringer;Opslag på medicinoplysninger
+Henter flere effektueringer på en LMO;Opslag på medicinoplysninger
 Hent auditlog;Opslag på patientdata
 Hent personoplysninger;Opslag på patientdata
 Hent personnavn;Opslag på patientdata
@@ -235,7 +236,6 @@ Oprettet;Ændring af privatmarkering
 # ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
 
 Juster doseringsændring
-Henter flere effektueringer på en LMO
 Slet autorisation for system
 Opdater autorisation for system
 Fjern lægens medhjælper
