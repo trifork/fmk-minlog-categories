@@ -200,6 +200,7 @@ Kvitter for bestillinger;Administratoropslag
 Bestil effektuering;Administratoropslag
 Fjern patienttilknytning;Administratoropslag
 Pausering af lægemiddelordination;Administratoropslag
+Søg hændelser;Administratoropslag
 # TAS
 Vis antal tilskudsansøgninger med udestående yderligere oplysninger;Hent tilskudsoplysninger
 Vis tilskudsansøgninger;Hent tilskudsoplysninger
@@ -233,6 +234,8 @@ Privatmarkerede vaccinationer vist pga. værdispringsregel;Opslag på privatmark
 VaerdiSpring;Opslag på privatmarkerede data
 PatientSamtykke;Opslag på privatmarkerede data
 Oprettet;Ændring af privatmarkering
+Tilmeld og opret anbefalede vaccinationer;Opret/rediger anbefalede vaccinationer
+Effektuer anbefalet vaccination med vaccination;Opret/rediger anbefalede vaccinationer
 # ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
 
 Juster doseringsændring
