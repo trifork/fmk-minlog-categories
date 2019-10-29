@@ -7,9 +7,9 @@
     <property name="ivy.checksums" value=""/>
 
     <property file="build.properties"/>
-     <property name="trifork-common" value="${basedir}/../trifork-common"/>
+    <!-- <property name="trifork-common" value="${basedir}/../trifork-common"/>
 
-	<import file="${trifork-common}/etc/build-common.xml"/>
+	<import file="${trifork-common}/etc/build-common.xml"/>-->
 
     <path id="classpath">
         <fileset dir="lib/build">
