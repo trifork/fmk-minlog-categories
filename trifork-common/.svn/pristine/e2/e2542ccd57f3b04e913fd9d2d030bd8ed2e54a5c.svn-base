@@ -1,0 +1,12 @@
+<ivy-module version="1.0">
+    <info module="trifork-common" organisation="trifork" status="integration"/>
+    <configurations>
+      <conf name="deploy"/>
+      <conf name="build" extends="deploy"/>
+      <conf name="test" extends="build" />
+    </configurations>
+    <dependencies>
+        <dependency org="jsch" name="jsch" rev="0.1.29" conf="build->default"/>
+        <dependency org="org.programmerplanet.ant" name="jmeter" rev="20071121" conf="test->default"/>
+    </dependencies>
+</ivy-module>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE project>
+<!-- the project element's name attribute will be used in the name of the module's jar file -->
+<project name="trifork-common" default="publish-local">
+	<property name="trifork-common" value="${basedir}"/>
+	<property file="build.properties"/>    
+    <import file="${trifork-common}/etc/build-common.xml"/>
+	
+    <target name ="source-jar" description="Build source jar">
+        <jar destfile="target/trifork-common-src.jar">
+            <fileset dir="${trifork-common}">
+                <exclude name="**/.svn"/>
+                <exclude name="lib/build/**"/>
+                <exclude name="build.properties"/>
+                <include name="ivyconf.xml"/>
+                <include name="ivy.xml"/>
+                <include name="build.xml"/>
+                <include name="sosigw.map"/>
+                <include name="etc/**"/>
+                <include name="lib/ivy/**"/>
+                <include name="lib/shared-lib/org.programmerplanet.ant/jmeter/**"/> <!-- Apache License, Version 2.0 -->
+                <include name="lib/shared-lib/dk.sosi/seal/**"/> <!-- Which OSI License? -->
+                <include name="lib/shared-lib/dk.sosi/seal-src/**"/> <!-- Which OSI License? -->
+                <include name="lib/shared-lib/com.google.code/gwt-incubator/**"/> <!-- Apache License, Version 2.0 -->
+                <include name="lib/shared-lib/com.sun.xml/jaxws-ri/**"/> <!-- Dual license consisting of the  CDDL v1.0 and GPL v2. -->
+                <include name="lib/shared-lib/org.apache.jmeter/**"/> <!-- Apache License, Version 2.0 -->
+                <include name="src/**"/>
+                <include name=".classpath"/>
+                <include name=".project"/>
+            </fileset>
+        </jar>
+    </target>
+</project>
