@@ -2,7 +2,7 @@
 
 	<property name="ibiblio-maven2-pattern" value="[organisation]/[module]/[revision]/[module]-[revision](-[classifier]).[ext]" override="false" />
 	<credentials host="ci.fmk.netic.dk"
-                      realm="Nexus Repository Manager"
+                      realm="Sonatype Nexus Repository Manager"
                       username="${repo.user}" passwd="${repo.pass}"/>
 
 	<resolvers>
