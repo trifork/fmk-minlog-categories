@@ -44,7 +44,7 @@ public class ActionMapReader {
 	
 	public static ActionMap getActionMap(String mappingFilename) throws IOException {
 		
-		Map<Action, String> includedActionsMap = new HashMap<Action, String>(); 
+		Map<String, String> includedActionsMap = new HashMap<>(); 
 		Set<String> ignoredActions = new HashSet<String>();
 		BufferedReader br = null;
 		String line = "";
@@ -61,9 +61,9 @@ public class ActionMapReader {
 				if(!line.startsWith("#")) {	// Comment lines starts with #
 					String[] actionMapLine = line.split(";");
 					if(actionMapLine.length == 2) {
-						Action action = new Action(actionMapLine[0], isAdminAction(actionMapLine[1]));
+						String action = actionMapLine[0];
 						if(includedActionsMap.containsKey(action)) {
-							logger.error("Duplicate key in actionmap-file: " + action.getActionName() + " (admin = " + action.getIsAdminAction() + ")");
+							logger.error("Duplicate key in actionmap-file: " + action);
 						}
 						else {
 							includedActionsMap.put(action, actionMapLine[1]);

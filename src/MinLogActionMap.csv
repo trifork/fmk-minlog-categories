@@ -2,7 +2,6 @@
 Hent akutte perioder;Dosisdispenseringskort
 Find bestillinger;Opslag på receptbestillinger/anmodninger
 Hent patients bestillinger;Opslag på receptbestillinger/anmodninger
-Hent patienttilknytning;Opslag på patientdata
 Fortryd kassering af dosisrulle;Dosisdispenseringskort
 Hent paknings overblik;Dosisdispenseringskort
 Kasser dosisdispenseringsrulle;Dosisdispenseringskort
@@ -124,6 +123,7 @@ Opret/ophæv tilknytning af recept;Opret/rediger recept
 Opret recept;Opret/rediger recept
 Opret recept til praksis;Opret/rediger recept
 Erstat recept;Opret/rediger recept
+Slet recept;Opret/rediger recept
 Marker recept ordination ikke aktuel;Opret/rediger recept
 Afmarker recept ordination ikke aktuel;Opret/rediger recept
 Annuller recept;Opret/rediger recept
@@ -143,68 +143,24 @@ Annuller bestilling;Opret/rediger receptbestillinger/anmodninger
 Hent nye bestillinger;Opslag på receptbestillinger/anmodninger
 # POR
 Hent patienttilknytning;Opslag på patientdata
-Hent patienttilknytning med datoer;Opslag på patientdata
 Hent patientregistrering;Opslag på patientdata
-Avanceret søgning på person;Opslag på patientdata
 Opret patienttilknytning;Opret/rediger patientdata
 Fjern patienttilknytning;Opret/rediger patientdata
 Opret patientregistrering;Opret/rediger patientdata
 Fjern patientregistrering;Opret/rediger patientdata
 # ADMIN GUI
-Hent medicinkort;Administratoropslag
-Hent medicinkort for apoteker;Administratoropslag
-Påbegynd effektuering;Administratoropslag
-Afbryd effektuering;Administratoropslag
-Opret effektuering på recept;Administratoropslag
-Hent lægemiddelordination;Administratoropslag
-Hent lægemiddelordinationer;Administratoropslag
-Hent person;Administratoropslag
-Hent personnavn;Administratoropslag
-Søg lægemiddelordinationer;Administratoropslag
-Søg antal lægemiddelordinationer;Administratoropslag
-Søg effektueringer;Administratoropslag
-Søg antal effektueringer;Administratoropslag
-Hent effektuering;Administratoropslag
-Hent effektueringer;Administratoropslag
-Hent tilknyttede receptordinationer;Administratoropslag
-Hent løse receptordinationer;Administratoropslag
-Hent tilknyttede recepter;Administratoropslag
-Hent løse recepter;Administratoropslag
-Hent autorisationsnummer;Administratoropslag
 Søg hændelser;Administratoropslag
 Søg antal hændelser;Administratoropslag
-Hent lægemiddelversioner;Administratoropslag
-Hent medicinkortversioner;Administratoropslag
+
 Hent alle adm brugere;Administratoropslag
 Hent adm bruger;Administratoropslag
 Slet adm bruger;Administratoropslag
 Tilføj adm bruger;Administratoropslag
-Hent lægens medhælpere;Administratoropslag
-Hent lægens navn;Administratoropslag
-Hent auditlog;Administratoropslag
-Hent bruger login;Administratoropslag
-Hent patienttilknytning;Administratoropslag
-Hent patienttilknytning med datoer;Administratoropslag
-Invalider medicinkort;Administrative ændringer
-Frigiv medicinkort;Administrative ændringer
-Invalider ordination;Administrative ændringer
-Invalider effektuering;Administrative ændringer
+
+Invalider medicinkort;Opret/rediger medicinoplysninger
+Invalider ordination;Opret/rediger medicinoplysninger
+Invalider effektuering;Opret/rediger medicinoplysninger
 Send et xml request fra admin brugergrænsefladen;Administrative ændringer
-Opret patienttilknytning;Administrative ændringer
-Opdatering af medicinkort;Administrative ændringer
-Opret lægemiddelordination;Administrative ændringer
-Opret effektuering;Administrative ændringer
-Hent samtykke/værdispring;Administratoropslag
-Hent medicinkortversion;Administratoropslag
-Afslut recept;Administratoropslag
-Ugyldiggør recept;Administratoropslag
-Genåbn recept;Administratoropslag
-Opret recept, bestilling og effektuering;Administratoropslag
-Kvitter for bestillinger;Administratoropslag
-Bestil effektuering;Administratoropslag
-Fjern patienttilknytning;Administratoropslag
-Pausering af lægemiddelordination;Administratoropslag
-Søg hændelser;Administratoropslag
 # TAS
 Vis antal tilskudsansøgninger med udestående yderligere oplysninger;Hent tilskudsoplysninger
 Vis tilskudsansøgninger;Hent tilskudsoplysninger

@@ -5,10 +5,10 @@ import java.util.Set;
 
 public class ActionMap {
 	
-	final Map<Action, String> actionMap;
+	final Map<String, String> actionMap;
 	final Set<String> ignoredActions;
 	
-	public Map<Action, String> getActionMap() {
+	public Map<String, String> getActionMap() {
 		return actionMap;
 	}
 	
@@ -16,7 +16,7 @@ public class ActionMap {
 		return ignoredActions;
 	}
 	
-	public ActionMap(Map<Action, String> actionMap,
+	public ActionMap(Map<String, String> actionMap,
 			Set<String> ignoredActions) {
 		super();
 		this.actionMap = actionMap;
