@@ -24,8 +24,8 @@
 	<property name="ivy.default.conf.dir" value="${trifork-common}/etc/ivy"/>
 	<property name="ivy.settings.file" value="${trifork-common}/ivyconf.xml"/>
 	<property name="ivy.resolver.default.check.modified" value="false"/>
-	<property name="sourceversion" value="1.5"/>
-	<property name="targetversion" value="1.5"/>
+	<property name="sourceversion" value="1.8"/>
+	<property name="targetversion" value="1.8"/>
 	<property name="ivy.shared.default.root" value="${trifork-common}/lib/shared-lib"/>
 	<property name="unittest.timeout.millis" value="1800000"/>
 
