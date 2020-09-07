@@ -46,6 +46,7 @@ Opret receptanmodning;Opret/rediger receptbestillinger/anmodninger
 Hent lægemiddelordination;Opslag på medicinoplysninger
 Ny hent lægemiddelordination;Opslag på medicinoplysninger
 Hent lægemiddelordinationversioner;Opslag på medicinoplysninger
+Hent lægemiddelversioner;Opslag på medicinoplysninger
 Hent medicinkort;Opslag på medicinoplysninger
 Ny hent medicinkort;Opslag på medicinoplysninger
 Hent medicinkortversion;Opslag på medicinoplysninger
@@ -201,6 +202,7 @@ Effektuer anbefalet vaccination med vaccination;Opret/rediger anbefalede vaccina
 Juster doseringsændring
 Slet autorisation for system
 Opdater autorisation for system
+Hent lægens medhjælpere
 Fjern lægens medhjælper
 Opret recept til praksis
 Menu opsætning
