@@ -75,6 +75,7 @@ Henter flere effektueringer på en LMO;Opslag på medicinoplysninger
 Hent auditlog;Opslag på patientdata
 Hent personoplysninger;Opslag på patientdata
 Hent personnavn;Opslag på patientdata
+
 # FMK - Apotekskald (1.4.6)
 Hent medicinkort med samtykke;Opslag på medicinoplysninger med samtykke
 Hent medicinkort for apoteker;Opslag på medicinoplysninger
@@ -88,6 +89,7 @@ Tilbagefør effektuering;Opret/rediger receptbestillinger/anmodninger
 Tilbagefør udlevering;Opret/rediger receptbestillinger/anmodninger
 Opret recept, bestilling og effektuering;Ekspeder recept
 Kvitter for bestillinger;Ekspeder recept
+
 # FMK - opret/rediger
 Pausering af lægemiddelordination;Opret/rediger medicinoplysninger
 Sæt markering for medicingennemgang;Opret/rediger medicinoplysninger
@@ -117,6 +119,7 @@ Opslag på privatmarkering: Samtykke;Opslag på privatmarkerede data
 Opslag på privatmarkering: Værdispring;Opslag på privatmarkerede data
 Opdater samtykke/værdispring;Opslag på privatmarkerede data
 Hent samtykke/værdispring;Opslag på privatmarkerede data
+
 # FMK - recept
 Opret/ophæv tilknytning af receptord.;Opret/rediger recept
 Opret receptordination;Opret/rediger recept
@@ -134,6 +137,7 @@ Opret recept og foretag ekspedition;Ekspedition af recept
 Fjern status under behandling;Ekspedition af recept
 Anmod om at frigive ordination;Ekspedition af recept
 Sæt status for frigiv ordination;Ekspedition af recept
+
 # EO/FMK bestillinger
 Bestil effektuering;Opret/rediger receptbestillinger/anmodninger
 Hent bestillinger;Opslag på receptbestillinger/anmodninger
@@ -142,6 +146,7 @@ Annuller bestillinger;Opret/rediger receptbestillinger/anmodninger
 Opret bestilling;Opret/rediger receptbestillinger/anmodninger
 Annuller bestilling;Opret/rediger receptbestillinger/anmodninger
 Hent nye bestillinger;Opslag på receptbestillinger/anmodninger
+
 # POR
 Hent patienttilknytning;Opslag på patientdata
 Hent patientregistrering;Opslag på patientdata
@@ -149,19 +154,19 @@ Opret patienttilknytning;Opret/rediger patientdata
 Fjern patienttilknytning;Opret/rediger patientdata
 Opret patientregistrering;Opret/rediger patientdata
 Fjern patientregistrering;Opret/rediger patientdata
+
 # ADMIN GUI
 Søg hændelser;Administratoropslag
 Søg antal hændelser;Administratoropslag
-
 Hent alle adm brugere;Administratoropslag
 Hent adm bruger;Administratoropslag
 Slet adm bruger;Administratoropslag
 Tilføj adm bruger;Administratoropslag
-
 Invalider medicinkort;Opret/rediger medicinoplysninger
 Invalider ordination;Opret/rediger medicinoplysninger
 Invalider effektuering;Opret/rediger medicinoplysninger
 Send et xml request fra admin brugergrænsefladen;Administrative ændringer
+
 # TAS
 Vis antal tilskudsansøgninger med udestående yderligere oplysninger;Hent tilskudsoplysninger
 Vis tilskudsansøgninger;Hent tilskudsoplysninger
@@ -170,6 +175,7 @@ Vis detaljer for tilskudsansøgning;Hent tilskudsoplysninger
 Vis bilag for tilskudsansøgning;Hent tilskudsoplysninger
 Indsend yderligere oplysninger for tilskudsansøgning;Indsend yderligere oplysninger
 Indsend tilskudsansøgning;Indsend tilskudsansøgning
+
 #DDV
 Opret anbefalede vaccinationer;Opret/rediger anbefalede vaccinationer
 Opret eksplicit forløbsfravalg;Opret/rediger anbefalede vaccinationer
@@ -197,8 +203,8 @@ PatientSamtykke;Opslag på privatmarkerede data
 Oprettet;Ændring af privatmarkering
 Tilmeld og opret anbefalede vaccinationer;Opret/rediger anbefalede vaccinationer
 Effektuer anbefalet vaccination med vaccination;Opret/rediger anbefalede vaccinationer
-# ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
 
+# ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
 Juster doseringsændring
 Slet autorisation for system
 Opdater autorisation for system
@@ -231,3 +237,4 @@ Slet recept
 Slet receptbestilling
 Slet apoteksudlevering
 Upload lægemiddelsortiment
+Hent receptanmodninger for organisation
