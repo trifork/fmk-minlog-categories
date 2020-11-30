@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- the project element's name attribute will be used in the name of the module's jar file -->
-<project name="fmk-minlog-categories" basedir=".">
+<project name="fmk-minlog-categories" basedir="." xmlns:ivy="antlib:fr.jayasoft.ivy.ant">
 
   <property name="testMaxMemory" value="1024m"/>
     <property name="test.instrument" value="true"/>
@@ -43,6 +43,12 @@
 
     <target name="publish-local" depends="build, local-revision, publish-local-do"/>
 	<target name="publish-internal" depends="init, resolve-build, local-revision,jar, war, publish-internal-do"/>
+
+
+    <target name="dependencytree">
+        <ivy:dependencytree />
+    </target>
+
 
 
     <target name="build" depends="resolve-build, jar"/>

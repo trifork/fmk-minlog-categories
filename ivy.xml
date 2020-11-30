@@ -18,15 +18,15 @@
       <conf name="deploy"/> <!-- Unused Present to allow ivy-report to work..  -->
     </configurations>
     <dependencies>
-    	<dependency org="net.sourceforge.cobertura" name="cobertura" rev="1.9.4.1" conf="test->default"/>
-        <dependency org="commons-io" name="commons-io" rev="1.4" />
-        <dependency org="junit" name="junit" rev="4.11" force="true" conf="test->default"/>
-        <dependency org="xmlunit" name="xmlunit" rev="1.3" conf="test->default"/>
+    	<dependency org="net.sourceforge.cobertura" name="cobertura" rev="2.1.1" conf="test->default"/>
+        <dependency org="commons-io" name="commons-io" rev="2.7" />
+        <dependency org="junit" name="junit" rev="4.13.1" force="true" conf="test->default"/>
+        <dependency org="xmlunit" name="xmlunit" rev="1.6" conf="test->default"/>
         <dependency org="log4j" name="log4j" rev="1.2.14" transitive="false"/>
         <dependency org="org.slf4j" name="slf4j-api" rev="1.6.1"/>
         <dependency org="joda-time" name="joda-time" rev="1.6" />
 		<dependency org="org.apache.commons" name="not-yet-commons-ssl" rev="0.3.9" transitive="false" />
-		<dependency org="joda-time" name="joda-time" rev="1.6" />
-		<dependency org="org.testng" name="testng" rev="6.8.5" conf="build,test->*"/>
+		<dependency org="joda-time" name="joda-time" rev="2.10.8" />
+		<dependency org="org.testng" name="testng" rev="7.3.0" conf="build,test->*"/>
     </dependencies>
 </ivy-module>
