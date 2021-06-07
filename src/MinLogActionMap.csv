@@ -161,6 +161,8 @@ Opret patienttilknytning;Opret/rediger patientdata
 Fjern patienttilknytning;Opret/rediger patientdata
 Opret patientregistrering;Opret/rediger patientdata
 Fjern patientregistrering;Opret/rediger patientdata
+Hent patienttilknytnings oversigt;Opslag på patientdata
+Hent organisations patienttilknytninger;Opslag på patientdata
 
 # ADMIN GUI
 Søg hændelser;Administratoropslag
