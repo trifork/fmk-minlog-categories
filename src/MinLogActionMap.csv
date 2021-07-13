@@ -215,6 +215,10 @@ Tilmeld og opret anbefalede vaccinationer;Opret/rediger anbefalede vaccinationer
 Effektuer anbefalet vaccination med vaccination;Opret/rediger anbefalede vaccinationer
 
 # ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
+Hent Funktionscertifikater
+Slet Funktionscertifikat
+Opret Funktionscertifikat
+
 Juster doseringsændring
 Slet autorisation for system
 Opdater autorisation for system
