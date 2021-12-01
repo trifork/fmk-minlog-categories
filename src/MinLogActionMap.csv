@@ -213,6 +213,13 @@ PatientSamtykke;Opslag på privatmarkerede data
 Oprettet;Ændring af privatmarkering
 Tilmeld og opret anbefalede vaccinationer;Opret/rediger anbefalede vaccinationer
 Effektuer anbefalet vaccination med vaccination;Opret/rediger anbefalede vaccinationer
+Hent vaccinepas;Opslag på vaccinepas
+Hent covid19-certifikater;Opslag på vaccinepas
+Slet påmindelsesfravalg;Opret/rediger påmindelsesfravalg
+Opret påmindelsesfravalg;Opret/rediger påmindelsesfravalg
+Hent påmindelsesfravalg;Opslag på påmindelsesfravalg
+Send vaccinepas som fysisk brev;Opslag på vaccinepas
+Send vaccinepas som fysisk brev til postadresse;Opsag på vaccinepas
 
 # ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
 Hent Funktionscertifikater
