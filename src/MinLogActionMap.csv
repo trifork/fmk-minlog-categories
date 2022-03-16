@@ -224,10 +224,11 @@ Send vaccinepas som fysisk brev;Bestil coronapas
 Send vaccinepas som fysisk brev til postadresse;Bestil coronapas
 
 # ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
+
+List lægens DD patienter
 Hent Funktionscertifikater
 Slet Funktionscertifikat
 Opret Funktionscertifikat
-
 Juster doseringsændring
 Slet autorisation for system
 Opdater autorisation for system
