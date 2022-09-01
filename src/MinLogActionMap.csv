@@ -222,6 +222,8 @@ Opret påmindelsesfravalg;Opret/rediger påmindelsesfravalg
 Hent påmindelsesfravalg;Opslag på påmindelsesfravalg
 Send vaccinepas som fysisk brev;Bestil coronapas
 Send vaccinepas som fysisk brev til postadresse;Bestil coronapas
+Hent covid19-vaccinationer;Opslag på vaccinationer
+Hent booking-vaccinationer;Opslag på vaccinationer
 
 # ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
 
