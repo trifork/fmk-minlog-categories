@@ -226,6 +226,15 @@ Send vaccinepas som fysisk brev til postadresse;Bestil coronapas
 Hent covid19-vaccinationer;Opslag på vaccinationer
 Hent booking-vaccinationer;Opslag på vaccinationer
 
+#Bulk Notification
+Hent notifikation;Vis afsendte brevudsendelser
+Hent oversigt over notifikationer;Vis afsendte brevudsendelser
+Opret notifikation;Opret ny brevforsendelse
+Opret status;Opret ny status
+Hent brevindhold;Vis brevindhold
+Hent PDF brevindhold;Vis brevindhold
+Opret brevindhold;Opret nyt brevindhold
+
 # ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
 
 List lægens DD patienter
