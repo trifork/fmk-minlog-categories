@@ -235,6 +235,15 @@ Hent forsendelsesindhold;Vis forsendelsesindhold
 Hent PDF forsendelsesindhold;Vis forsendelsesindhold
 Opret forsendelsesindhold;Opret nyt forsendelsesindhold
 
+# CTR
+HentStatus;Statusforespørgsel
+TransaktionsIndberetning;TransaktionsIndberetning
+HentTransaktionsliste;Hent Transaktionsliste
+SkiftCpr;Skift CPR-nr
+PatientOpl;Indberet patientoplysninger
+BevillingOpl;Indberet bevillinger
+HenstandsordningOpl;Opret henstandsordning
+
 # ikke med i minlog - SKAL listes her for ikke at havne i errorlog som manglende gruppering
 
 List lægens DD patienter
