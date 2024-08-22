@@ -226,6 +226,15 @@ Send vaccinepas som fysisk brev til postadresse;Bestil coronapas
 Hent covid19-vaccinationer;Opslag på vaccinationer
 Hent booking-vaccinationer;Opslag på vaccinationer
 
+#Bulk Notification
+Hent forsendelse;Vis afsendte brevudsendelser
+Hent oversigt over forsendelser;Vis afsendte brevudsendelser
+Opret forsendelse;Opret ny brevforsendelse
+Sæt forsendelsesstatus;Opret ny status
+Hent forsendelsesindhold;Vis forsendelsesindhold
+Hent PDF forsendelsesindhold;Vis forsendelsesindhold
+Opret forsendelsesindhold;Opret nyt forsendelsesindhold
+
 # CTR
 HentStatus;Statusforespørgsel
 TransaktionsIndberetning;TransaktionsIndberetning
